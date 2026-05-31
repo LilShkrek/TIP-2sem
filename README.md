@@ -135,7 +135,7 @@ curl -i -X POST http://localhost:8080/health
 {"level":"info","ts":1710000003.000001,"caller":"httpapi/middleware.go:25","msg":"request completed","request_id":1710000003000000000,"method":"GET","path":"/students/999","status_code":404,"duration":0.00019}
 ```
 
-Неподдерживаемый метод:
+Неподдерживаемый метод:  
 
 ```json
 {"level":"warn","ts":1710000004.000000,"caller":"httpapi/handler.go:26","msg":"method not allowed for health endpoint","method":"POST","path":"/health"}
