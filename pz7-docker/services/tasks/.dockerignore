@@ -1,0 +1,14 @@
+.git
+.idea
+.vscode
+.codex
+.agents
+.env
+.env.*
+bin
+dist
+tmp
+*.log
+*.out
+*.test
+Dockerfile.old
