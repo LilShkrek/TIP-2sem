@@ -1,0 +1,17 @@
+.git
+.github
+.idea
+.vscode
+.codex
+.agents
+
+Dockerfile
+*.md
+*.out
+*.test
+tasks
+bin/
+dist/
+
+.env
+.env.*
