@@ -172,7 +172,7 @@ go test ./...
 go vet ./...
 ```
 
-Для `order-service`:
+Для `order-service`:   
 
 ```bash
 cd order-service
